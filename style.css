@@ -1,0 +1,30 @@
+body {
+  
+    background-image: url("https://preview.redd.it/heres-all-the-in-game-backgrounds-for-all-your-background-v0-5szpb44fggea1.png?width=1366&format=png&auto=webp&s=431bdda5319a04119ace8e05587b4009a2db6d96");
+    background-repeat: no-repeat;
+     background-size: cover;
+  }
+  
+  .container {				
+      min-width: 775px;	
+      display: flex;
+      flex-wrap: wrap;	
+      justify-content: center;			
+  }
+  .main {
+      background-size: cover ;
+       min-width: 1350px;
+      min-height: 800px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      background-image: url("https://preview.redd.it/heres-all-the-in-game-backgrounds-for-all-your-background-v0-1unsnh4fggea1.png?width=1423&format=png&auto=webp&s=e57cfe7042b355c624bbb892a1ec700a1ca222c6");
+  }
+  
+  h1 {
+    color:#adaeba;
+    text-align:center;
+    font-size:70px;
+    font-family: Jim Nightshade;
+    
+  }
