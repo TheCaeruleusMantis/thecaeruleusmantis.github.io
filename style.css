@@ -12,10 +12,10 @@ body {
  /*------------------Title------------------*/
 .outer-Title{
    background-color:#959aa3;
-  width: 1300px;
+  width: 1000px;
   border: 10px double #1f1f1f;
   padding: 10px;
-  height: 230px;
+  height: 200px;
   margin:100px;
   justify-content:center;
   text-align:center;
@@ -50,52 +50,52 @@ h1{
 .BA,.BG,.W{
   color:#c7c9d1;
   text-align:center;
-  font-size:90px;
-  padding-top: 20px;
+  font-size:50px;
+  padding-top: px;
   margin:0px;
 
  }
 /*Artist container*/
 .Artist {
     background-size: cover;
-   width: 375px; 
-   height: 200px;
+   width: 275px; 
+   height: 100px;
     display: flex;
     justify-content: flex-end;
     background-color:#90959e ;
     align-items:center;
   margin: -50px;
   margin-left:auto;
-  margin-right:50px;
+  margin-right:100px;
    border-radius: 20px;
   border-style:inset;
 }
 /*Guitarist container*/
 .Guitar {
     background-size: cover;
-   width: 375px; 
-   height: 200px;
+   width: 275px; 
+   height: 100px;
     display: flex;
     justify-content: flex-end;
     background-color: #90959e ;
     align-items:center;
   margin: 100px;
   margin-left:auto;
-  margin-right:50px;
+  margin-right:100px;
    border-radius: 20px;
 }
 /*Writer container*/
 .Writer {
     background-size: cover;
-   width: 375px; 
-   height: 200px;
+   width: 275px; 
+   height: 100px;
     display: flex;
     justify-content: center;
     background-color: #90959e ;
     align-items:center;
   margin: -50px;
   margin-left:auto;
-  margin-right:50px;
+  margin-right:100px;
    border-radius: 20px;
 }
 
