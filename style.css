@@ -1,30 +1,120 @@
+/*------------------Background------------------*/
 body {
   
-    background-image: url("https://preview.redd.it/heres-all-the-in-game-backgrounds-for-all-your-background-v0-5szpb44fggea1.png?width=1366&format=png&auto=webp&s=431bdda5319a04119ace8e05587b4009a2db6d96");
-    background-repeat: no-repeat;
-     background-size: cover;
-  }
+  background-image: url("https://preview.redd.it/heres-all-the-in-game-backgrounds-for-all-your-background-v0-1unsnh4fggea1.png?width=1423&format=png&auto=webp&s=e57cfe7042b355c624bbb892a1ec700a1ca222c6");
+  background-repeat: no-repeat;
+   background-size: cover;
+  align-items: center;  
+  justify-content: center;
+  display:grid;
   
-  .container {				
-      min-width: 775px;	
-      display: flex;
-      flex-wrap: wrap;	
-      justify-content: center;			
-  }
-  .main {
-      background-size: cover ;
-       min-width: 1350px;
-      min-height: 800px;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      background-image: url("https://preview.redd.it/heres-all-the-in-game-backgrounds-for-all-your-background-v0-1unsnh4fggea1.png?width=1423&format=png&auto=webp&s=e57cfe7042b355c624bbb892a1ec700a1ca222c6");
-  }
-  
-  h1 {
-    color:#adaeba;
-    text-align:center;
-    font-size:70px;
-    font-family: Jim Nightshade;
-    
-  }
+}
+ /*------------------Title------------------*/
+.outer-Title{
+   background-color:#959aa3;
+  width: 1300px;
+  border: 10px double #1f1f1f;
+  padding: 10px;
+  height: 230px;
+  margin:100px;
+  justify-content:center;
+  text-align:center;
+   border-radius: 20px;
+  position:relative;
+}
+.outer-Title::before {
+  content: "";
+  background-color: transparent;
+  width: 100%; 
+  height: 100%; 
+  margin:-10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 10px dotted #1f1f1f;
+  border-radius: 20px;
+}
+
+h1{
+  color:#c7c9d1;
+  text-align:center;
+  font-size:150px;
+  font-family: Jim Nightshade;
+  padding-top: 20px;
+  margin:0px;
+
+ }
+
+/*---------------sub container h2--------------*/
+/*font*/
+.BA,.BG,.W{
+  color:#c7c9d1;
+  text-align:center;
+  font-size:90px;
+  padding-top: 20px;
+  margin:0px;
+
+ }
+/*Artist container*/
+.Artist {
+    background-size: cover;
+   width: 375px; 
+   height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    background-color:#90959e ;
+    align-items:center;
+  margin: -50px;
+  margin-left:auto;
+  margin-right:50px;
+   border-radius: 20px;
+  border-style:inset;
+}
+/*Guitarist container*/
+.Guitar {
+    background-size: cover;
+   width: 375px; 
+   height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #90959e ;
+    align-items:center;
+  margin: 100px;
+  margin-left:auto;
+  margin-right:50px;
+   border-radius: 20px;
+}
+/*Writer container*/
+.Writer {
+    background-size: cover;
+   width: 375px; 
+   height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #90959e ;
+    align-items:center;
+  margin: -50px;
+  margin-left:auto;
+  margin-right:50px;
+   border-radius: 20px;
+}
+
+/*Note: The 3 containers have been done seperately unlike their text due to margin.I could combine them and write the margin seperately but I spare my time*/ 
+
+/*----------------Intro Bio---------------------*/
+
+.Intro-box {
+  width:900px;
+  height:200px;
+  background-color:red;
+  justify-content:center;
+  margin-left:170px;
+  margin-right:auto;
+  border-radius:20px;
+  display:flex;
+  margin:;
+}
+.Bio {
+   
+   
+}
