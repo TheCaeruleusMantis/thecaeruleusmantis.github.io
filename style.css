@@ -12,10 +12,10 @@ body {
  /*------------------Title------------------*/
 .outer-Title{
    background-color:#959aa3;
-  width: 1000px;
+  width: 900px;
   border: 10px double #1f1f1f;
   padding: 10px;
-  height: 200px;
+  height: 150px;
   margin:100px;
   justify-content:center;
   text-align:center;
@@ -38,13 +38,19 @@ body {
 h1{
   color:#c7c9d1;
   text-align:center;
-  font-size:150px;
-  font-family: Jim Nightshade;
+  font-size:110px;
+  font-family:'Jacquard 12';
   padding-top: 20px;
-  margin:0px;
-
+  margin:-0px;
  }
 
+.SillyCat{
+  margin-top:-700px;
+  margin-right:480px;
+  margin-left:auto;
+  width:auto;
+  height:70px;
+}
 /*---------------sub container h2--------------*/
 /*font*/
 .BA,.BG,.W{
@@ -53,13 +59,14 @@ h1{
   font-size:50px;
   padding-top: px;
   margin:0px;
+  font-family:'Jersey 15';
 
  }
 /*Artist container*/
 .Artist {
     background-size: cover;
-   width: 275px; 
-   height: 100px;
+   width: 260px; 
+   height: 90px;
     display: flex;
     justify-content: flex-end;
     background-color:#90959e ;
@@ -68,13 +75,14 @@ h1{
   margin-left:auto;
   margin-right:100px;
    border-radius: 20px;
-  border-style:inset;
+  border:9px double #1f1f1f;
 }
+
 /*Guitarist container*/
 .Guitar {
     background-size: cover;
-   width: 275px; 
-   height: 100px;
+   width: 260px; 
+   height: 90px;
     display: flex;
     justify-content: flex-end;
     background-color: #90959e ;
@@ -83,12 +91,13 @@ h1{
   margin-left:auto;
   margin-right:100px;
    border-radius: 20px;
+   border:9px double #1f1f1f;
 }
 /*Writer container*/
 .Writer {
     background-size: cover;
-   width: 275px; 
-   height: 100px;
+    width: 260px; 
+   height: 90px;
     display: flex;
     justify-content: center;
     background-color: #90959e ;
@@ -97,6 +106,7 @@ h1{
   margin-left:auto;
   margin-right:100px;
    border-radius: 20px;
+   border:9px double #1f1f1f;
 }
 
 /*Note: The 3 containers have been done seperately unlike their text due to margin.I could combine them and write the margin seperately but I spare my time*/ 
@@ -104,17 +114,27 @@ h1{
 /*----------------Intro Bio---------------------*/
 
 .Intro-box {
-  width:900px;
+  width:500px;
   height:200px;
-  background-color:red;
+  background-color:#9a9ba1;
   justify-content:center;
-  margin-left:170px;
+  margin-left:220px;
   margin-right:auto;
   border-radius:20px;
   display:flex;
-  margin:;
+  margin-top: -542px;
 }
 .Bio {
+  
    
-   
+}
+
+/*Banner*/
+
+.Banner {
+  border-radius:20px;
+  height:200px;
+  width:500px;
+  margin-top:-110px;
+  margin-left:220px;
 }
