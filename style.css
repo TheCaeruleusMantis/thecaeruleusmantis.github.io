@@ -45,8 +45,8 @@ h1{
  }
 
 .SillyCat{
-  margin-top:-700px;
-  margin-right:480px;
+  margin-top:-720px;
+  margin-right:400px;
   margin-left:auto;
   width:auto;
   height:70px;
@@ -156,7 +156,7 @@ h1{
   height:110px;
   width:1920px;
   position:absolute;
-  top:864px;
+  top:700px;
   right:0px;
    background-image:linear-gradient(transparent,#b4b8ca);
 }
@@ -166,7 +166,7 @@ h1{
   width:1920px;
   background-color:#b4b8ca;
   position:absolute;
-  top:974px;
+  top:810px;
   right:0px;
 }
 
@@ -175,12 +175,12 @@ h1{
   top:1000px;
 }
 .MainBox {
-  width:1560px;
+  width:1000px;
   height:200px;
   background-color:#111111;
   position:absolute;
-  top:1100px; 
-  left:100px;
+  top:900px; 
+  left:375px;
   justify-content:center;
   margin: 0 auto; 
   border:double #bec2cc 6px;
