@@ -166,9 +166,10 @@ h1{
   width:1920px;
   background-color:#b4b8ca;
   position:absolute;
-  top:790px;
+  top:750px;
   right:0px;
 }
+/*Top for Backbox has less px then needed so the website on github would work.Put top to 810 to see the way it should be if the code only was on codepen (warning:code might be alligned wrong or other problems might occure if top is 810px since the rest of the code was written with top 750px from this point on)*/
 
 .Arcane{
   position:absolute;
