@@ -176,12 +176,13 @@ h1{
 }
 .MainBox {
   width:1000px;
-  height:200px;
+  height:100px;
   background-color:#111111;
   position:absolute;
-  top:900px; 
+  top:870px; 
   left:375px;
   justify-content:center;
   margin: 0 auto; 
   border:double #bec2cc 6px;
+  border-radius:10px;
 }
