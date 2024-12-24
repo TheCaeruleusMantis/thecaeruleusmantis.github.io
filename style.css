@@ -190,9 +190,11 @@ h1{
 
 .Arcane{
   position:absolute;
-  top:1000px;
+  top:862px;
   opacity:5;
 transition:0.05s linear ;
+  height:135px;
+  width:auto;
 }
 
 .Arcane:hover{
