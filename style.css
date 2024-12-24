@@ -156,9 +156,10 @@ h1{
   height:110px;
   width:1920px;
   position:absolute;
-  top:700px;
+  top:665px;
   right:0px;
    background-image:linear-gradient(transparent,#b4b8ca);
+  z-index:-1;
 }
 
 .BackBox{
