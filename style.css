@@ -12,10 +12,10 @@ body {
  /*------------------Title------------------*/
 .outer-Title{
    background-color:#b3bfd2;
-  width: 900px;
+  width: 750px;
   border: 10px double #1f1f1f;
   padding: 10px;
-  height: 150px;
+  height: 100px;
   margin:100px;
   justify-content:center;
   text-align:center;
@@ -38,9 +38,9 @@ body {
 h1{
   color:#19191c;
   text-align:center;
-  font-size:110px;
+  font-size:90px;
   font-family:'Jacquard 12';
-  padding-top: 20px;
+  padding-top: 10px;
   margin:-0px;
  }
 
@@ -56,7 +56,7 @@ h1{
 .BA,.BG,.W{
   color:#19191c;
   text-align:center;
-  font-size:50px;
+  font-size:38px;
   padding-top: px;
   margin:0px;
   font-family:'Jacquard 12';
@@ -65,48 +65,53 @@ h1{
 /*Artist container*/
 .Artist {
     background-size: cover;
-   width: 260px; 
-   height: 90px;
+   width: 215px; 
+   height: 60px;
     display: flex;
     justify-content: flex-end;
     background-color:#adb9cc ;
     align-items:center;
-  margin: -50px;
   margin-left:auto;
-  margin-right:100px;
+  margin-right:140px;
    border-radius: 20px;
   border:9px double #1f1f1f;
+ position:relative;
+  top:-59px;
 }
 
 /*Guitarist container*/
 .Guitar {
     background-size: cover;
-   width: 260px; 
-   height: 90px;
+   width: 215px; 
+   height: 60px;
     display: flex;
     justify-content: flex-end;
     background-color: #adb9cc ;
     align-items:center;
-  margin: 100px;
+  margin: 80px;
   margin-left:auto;
-  margin-right:100px;
+  margin-right:140px;
    border-radius: 20px;
    border:9px double #1f1f1f;
+  position:relative;
+  top:-55px;
 }
 /*Writer container*/
 .Writer {
     background-size: cover;
-    width: 260px; 
-   height: 90px;
+    width: 215px; 
+   height: 60px;
     display: flex;
     justify-content: center;
     background-color: #adb9cc;
     align-items:center;
-  margin: -50px;
+  margin: -60px;
   margin-left:auto;
-  margin-right:100px;
+  margin-right:140px;
    border-radius: 20px;
    border:9px double #1f1f1f;
+  position:relative;
+  top:-35px;
 }
 
 /*Note: The 3 containers have been done seperately unlike their text due to margin.I could combine them and write the margin seperately but I spare my time XD*/ 
@@ -114,31 +119,33 @@ h1{
 /*----------------Intro Bio---------------------*/
 
 .Intro-box {
-  width:483px;
-  height:200px;
+  width:425px;
+  height:160px;
   background-color:#bfc4d7;
   justify-content:center;
-  margin-left:220px;
+  margin-left:140px;
   margin-right:auto;
   border-radius:20px;
   display:flex;
-  margin-top: -542px;
+  margin-top:-570px;
   border:double 10px;
 }
 .Bio {
   font-family:'Jacquard 12';
-  font-size:25px;
+  font-size:24px;
   color:#19191c;
+  margin-top:-3px;
+  
 }
 
 /*Banner*/
 
 .Banner {
   border-radius:20px;
-  height:200px;
-  width:500px;
-  margin-top:-110px;
-  margin-left:220px;
+  height:160px;
+  width:440px;
+  margin-top:-160px;
+  margin-left:140px;
 }
 
 
@@ -172,6 +179,7 @@ h1{
 
 .Arcane{
   position:absolute;
+  top:1000px;
 }
 .MainBox {
   width:1560px;
