@@ -166,10 +166,10 @@ h1{
   width:1920px;
   background-color:#b4b8ca;
   position:absolute;
-  top:780px;
+  top:782px;
   right:0px;
 }
-/*Top for Backbox has less px then needed so the website on github would work.Put top to 810 to see the way it should be if the code only was on codepen (warning:code might be alligned wrong or other problems might occure if top is 810px since the rest of the code was written with top 780px from this point on)*/
+/*Top for Backbox has less px then needed so the website on github would work.Put top to 810 to see the way it should be if the code only was on codepen (warning:code might be alligned wrong or other problems might occure if top is 810px since the rest of the code was written with top 782px from this point on)*/
 
 
 .FandomBox {
@@ -178,7 +178,7 @@ h1{
   background-color:#111111;
   position:absolute;
   top:870px; 
-  left:400px;
+  left:390px;
   justify-content:center;
   margin: 0 auto; 
   border:double #bec2cc 6px;
@@ -190,3 +190,4 @@ h1{
   position:absolute;
   top:1000px;
 }
+
