@@ -196,11 +196,11 @@ transition:0.05s linear ;
   height:135px;
   width:auto;
   right:auto;
-  left:auto;
+  left:1000px;
 }
 
 .Arcane:hover{
-  opacity:0.7;
+  opacity:0.6;
 transition:0.25s linear;
 }
 
