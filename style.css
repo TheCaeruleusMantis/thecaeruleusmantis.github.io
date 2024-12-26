@@ -171,9 +171,9 @@ h1{
   right:0px;
   
 }
-/*Top for Backbox has less px then needed so the website on github would work.Put top to 810 to see the way it should be if the code only was on codepen (warning:code might be alligned wrong or other problems might occure if top is 810px since the rest of the code was written with top 774px from this point on)*/
 
-/*---------FandomBox-----------*/
+
+/*--------------FandomBox-------------*/
 .FandomBox {
   width:700px;
   height:100px;
@@ -185,7 +185,14 @@ h1{
   border:double #bec2cc 6px;
   border-radius:10px;
 }
-/*The same that happened for Backbox Top has been done for FandomBox Left*/
+
+.FB-Word{
+  font-family:"Jacquard 12";
+  font-size:30px;
+   position:absolute;
+  top:840px;
+  left:640px;
+}
 
 /*Arcane*/
 .Arcane{
@@ -203,7 +210,6 @@ transition:0.05s linear ;
   opacity:0.6;
 transition:0.25s linear;
 }
-
 
 /*Rain World*/
 
@@ -240,7 +246,6 @@ transition:0.05s linear ;
   opacity:0.6;
 transition:0.25s linear;
 }
-
 
 /*Warrior Cats*/
 
@@ -314,4 +319,82 @@ transition:0.05s linear ;
   opacity:0.6;
 transition:0.25s linear;
 }
+
+/*----------Music Artist box---------*/
+
+.MusicArtistBox {
+  width:500px;
+  height:100px;
+  background-color:#111111;
+  position:absolute;
+  top:1015px; 
+  left:440px;
+  margin: 0 auto; 
+  border:double #bec2cc 6px;
+  border-radius:10px;
+}
+
+.MAB-Word{
+  font-family:"Jacquard 12";
+  font-size:30px;
+   position:absolute;
+  top:990px;
+  left:550px;
+}
+
+/*Subvison*/
+
+.Subvision{
+  position:absolute;
+  top:1015px;
+  opacity:5;
+transition:0.05s linear ;
+  height:120px;
+  width:130px;
+  right:auto;
+  left:460px;
+}
+
+.Subvision:hover{
+  opacity:0.6;
+transition:0.25s linear;
+}
+
+
+/*Castle Rat*/
+
+.CastleRat{
+  position:absolute;
+  top:1025px;
+  opacity:5;
+transition:0.05s linear ;
+  height:90px;
+  width:auto;
+  right:auto;
+  left:620px;
+}
+
+.CastleRat:hover{
+  opacity:0.6;
+transition:0.25s linear;
+}
+
+/*Ghost*/
+
+.Ghost{
+  position:absolute;
+  top:1025px;
+  opacity:5;
+transition:0.05s linear ;
+  height:90px;
+  width:auto;
+  right:auto;
+  left:800px;
+}
+
+.Ghost:hover{
+  opacity:0.6;
+transition:0.25s linear;
+}
+
 
