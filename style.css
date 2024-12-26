@@ -173,7 +173,7 @@ h1{
 }
 /*Top for Backbox has less px then needed so the website on github would work.Put top to 810 to see the way it should be if the code only was on codepen (warning:code might be alligned wrong or other problems might occure if top is 810px since the rest of the code was written with top 774px from this point on)*/
 
-
+/*---------FandomBox-----------*/
 .FandomBox {
   width:700px;
   height:100px;
@@ -181,13 +181,13 @@ h1{
   position:absolute;
   top:870px; 
   left:350px;
-  justify-content:center;
   margin: 0 auto; 
   border:double #bec2cc 6px;
   border-radius:10px;
 }
 /*The same that happened for Backbox Top has been done for FandomBox Left*/
 
+/*Arcane*/
 .Arcane{
   position:absolute;
   top:862px;
@@ -200,6 +200,117 @@ transition:0.05s linear ;
 }
 
 .Arcane:hover{
+  opacity:0.6;
+transition:0.25s linear;
+}
+
+
+/*Rain World*/
+
+.RainWorld{
+  position:absolute;
+  top:862px;
+  opacity:5;
+transition:0.05s linear ;
+  height:135px;
+  width:auto;
+  right:auto;
+  left:465px;
+}
+
+.RainWorld:hover{
+  opacity:0.6;
+transition:0.25s linear;
+  }
+  
+/*Pokemon*/
+
+.Pokemon{
+  position:absolute;
+  top:862px;
+  opacity:5;
+transition:0.05s linear ;
+  height:135px;
+  width:auto;
+  right:auto;
+  left:542px;
+}
+
+.Pokemon:hover{
+  opacity:0.6;
+transition:0.25s linear;
+}
+
+
+/*Warrior Cats*/
+
+.WarriorCats{
+  position:absolute;
+  top:880px;
+  opacity:5;
+transition:0.05s linear ;
+  height:90px;
+  width:auto;
+  right:auto;
+  left:640px;
+}
+
+.WarriorCats:hover{
+  opacity:0.6;
+transition:0.25s linear;
+}
+
+/*Ultrakill*/
+
+.Ultrakill{
+  position:absolute;
+  top:866px;
+  opacity:5;
+transition:0.05s linear ;
+  height:120px;
+  width:auto;
+  right:auto;
+  left:720px;
+}
+
+.Ultrakill:hover{
+  opacity:0.6;
+transition:0.25s linear;
+}
+
+/*Dandys World*/
+
+.DandysWorld{
+  position:absolute;
+  top:875px;
+  opacity:5;
+transition:0.05s linear ;
+  height:100px;
+  width:auto;
+  right:auto;
+  left:830px;
+}
+
+.DandysWorld:hover{
+  opacity:0.6;
+transition:0.25s linear;
+}
+
+
+/*Wings of fire*/
+
+.WingsOfFire{
+  position:absolute;
+  top:875px;
+  opacity:5;
+transition:0.05s linear ;
+  height:100px;
+  width:auto;
+  right:auto;
+  left:940px;
+}
+
+.WingsOfFire:hover{
   opacity:0.6;
 transition:0.25s linear;
 }
