@@ -144,9 +144,9 @@ h1{
 
 .Banner {
   border-radius:20px;
-  height:160px;
+  height:180px;
   width:440px;
-  margin-top:-160px;
+  margin-top:-180px;
   margin-left:140px;
 }
 
@@ -253,7 +253,7 @@ h1{
   height:100px;
   background-color:#111111;
   position:absolute;
-  top:870px; 
+  top:830px; 
   left:350px;
   margin: 0 auto; 
   border:double #bec2cc 6px;
@@ -264,14 +264,14 @@ h1{
   font-family:"Jacquard 12";
   font-size:30px;
    position:absolute;
-  top:840px;
+  top:800px;
   left:640px;
 }
 
 /*Arcane*/
 .Arcane{
   position:absolute;
-  top:862px;
+  top:822px;
   opacity:5;
 transition:0.05s linear ;
   height:135px;
@@ -289,7 +289,7 @@ transition:0.25s linear;
 
 .RainWorld{
   position:absolute;
-  top:862px;
+  top:822px;
   opacity:5;
 transition:0.05s linear ;
   height:135px;
@@ -307,7 +307,7 @@ transition:0.25s linear;
 
 .Pokemon{
   position:absolute;
-  top:862px;
+  top:822px;
   opacity:5;
 transition:0.05s linear ;
   height:135px;
@@ -325,7 +325,7 @@ transition:0.25s linear;
 
 .WarriorCats{
   position:absolute;
-  top:880px;
+  top:840px;
   opacity:5;
 transition:0.05s linear ;
   height:90px;
@@ -343,7 +343,7 @@ transition:0.25s linear;
 
 .Ultrakill{
   position:absolute;
-  top:866px;
+  top:826px;
   opacity:5;
 transition:0.05s linear ;
   height:120px;
@@ -361,7 +361,7 @@ transition:0.25s linear;
 
 .DandysWorld{
   position:absolute;
-  top:875px;
+  top:835px;
   opacity:5;
 transition:0.05s linear ;
   height:100px;
@@ -380,7 +380,7 @@ transition:0.25s linear;
 
 .WingsOfFire{
   position:absolute;
-  top:875px;
+  top:835px;
   opacity:5;
 transition:0.05s linear ;
   height:100px;
@@ -401,7 +401,7 @@ transition:0.25s linear;
   height:100px;
   background-color:#111111;
   position:absolute;
-  top:1015px; 
+  top:970px; 
   left:440px;
   margin: 0 auto; 
   border:double #bec2cc 6px;
@@ -412,7 +412,7 @@ transition:0.25s linear;
   font-family:"Jacquard 12";
   font-size:30px;
    position:absolute;
-  top:990px;
+  top:945px;
   left:550px;
 }
 
@@ -420,7 +420,7 @@ transition:0.25s linear;
 
 .Subvision{
   position:absolute;
-  top:1015px;
+  top:970px;
   opacity:5;
 transition:0.05s linear ;
   height:120px;
@@ -439,7 +439,7 @@ transition:0.25s linear;
 
 .CastleRat{
   position:absolute;
-  top:1025px;
+  top:980px;
   opacity:5;
 transition:0.05s linear ;
   height:90px;
@@ -457,7 +457,7 @@ transition:0.25s linear;
 
 .Ghost{
   position:absolute;
-  top:1025px;
+  top:980px;
   opacity:5;
 transition:0.05s linear ;
   height:90px;
@@ -481,7 +481,7 @@ transition:0.25s linear;
   border: 1px solid #232329; 
   width:900px; 
   position:absolute;
-  top:1150px;
+  top:1090px;
   left:50%;
   transform: translateX(-50%);
 }
@@ -490,7 +490,7 @@ transition:0.25s linear;
   border: 1px solid #232329; 
   width:700px; 
   position:absolute;
-  top:1170px;
+  top:1110px;
   left:50%;
   transform: translateX(-50%);
 }
@@ -498,10 +498,20 @@ transition:0.25s linear;
 /*----Shaded'soul----*/
 
 .SSBOX{
-  width:400px;
-  height:400px;
+  width:300px;
+  height:350px;
   position:absolute;
-  top:1350px;
+  top:1200px;
   background-color:#1f1f2b;
   left:5%;
+}
+
+
+.SSROHMBUS{
+  width:100px;
+  height:100px;
+  transform:rotate(45deg);
+  background-color:white;
+  position:absolute;
+  top:1300px;
 }
