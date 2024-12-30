@@ -12,16 +12,17 @@ body {
  /*------------------Title------------------*/
 .outer-Title{
    background-color:#b3bfd2;
-  width: 750px;
+  width:650px;
   border: 10px double #1f1f1f;
   padding: 10px;
-  height: 100px;
-  margin:100px;
+  height:60px;
   justify-content:center;
   text-align:center;
    border-radius: 20px;
-  position:relative;
+  position:absolute;
+  left:370px;
 }
+
 .outer-Title::before {
   content: "";
   background-color: transparent;
@@ -38,10 +39,12 @@ body {
 h1{
   color:#19191c;
   text-align:center;
-  font-size:90px;
+  font-size:70px;
   font-family:'Jacquard 12';
   padding-top: 10px;
-  margin:-0px;
+  position:absolute;
+  top:-45px;
+  left:50px;
  }
 
 .SillyCat{
@@ -67,53 +70,47 @@ h1{
 /*Artist container*/
 .Artist {
     background-size: cover;
-   width: 215px; 
+   width: 170px; 
    height: 60px;
     display: flex;
     justify-content: flex-end;
     background-color:#adb9cc ;
     align-items:center;
-  margin-left:auto;
-  margin-right:140px;
    border-radius: 20px;
   border:9px double #1f1f1f;
- position:relative;
-  top:-59px;
+ position:absolute;
+  top:200px;
+  left:850px;
 }
-
 /*Guitarist container*/
 .Guitar {
     background-size: cover;
-   width: 215px; 
+   width: 170px; 
    height: 60px;
     display: flex;
     justify-content: flex-end;
     background-color: #adb9cc ;
     align-items:center;
-  margin: 80px;
-  margin-left:auto;
-  margin-right:140px;
    border-radius: 20px;
    border:9px double #1f1f1f;
-  position:relative;
-  top:-67px;
+  position:absolute;
+  top:330px;
+  left:850px;
 }
 /*Writer container*/
 .Writer {
     background-size: cover;
-    width: 215px; 
+   width: 170px; 
    height: 60px;
     display: flex;
     justify-content: center;
     background-color: #adb9cc;
     align-items:center;
-  margin: -60px;
-  margin-left:auto;
-  margin-right:140px;
    border-radius: 20px;
    border:9px double #1f1f1f;
-  position:relative;
-  top:-35px;
+  position:absolute;
+  top:450px;
+  left:850px;
 }
 
 /*Note: The 3 containers have been done seperately unlike their text due to margin.I could combine them and write the margin seperately but I spare my time XD*/ 
@@ -121,22 +118,22 @@ h1{
 /*----------------Intro Bio---------------------*/
 
 .Intro-box {
-  width:425px;
-  height:160px;
+  width:350px;
+  height:140px;
   background-color:#bfc4d7;
   justify-content:center;
-  margin-left:140px;
-  margin-right:auto;
   border-radius:20px;
   display:flex;
-  margin-top:-570px;
   border:double 10px;
+  position:absolute;
+  top:199px;
+  left:430px;
 }
 .Bio {
   font-family:'Jacquard 12';
-  font-size:24px;
+  font-size:20px;
   color:#19191c;
-  margin-top:-3px;
+  margin-top:-1px;
   
 }
 
@@ -146,8 +143,8 @@ h1{
   border-radius:20px;
   height:180px;
   width:440px;
-  margin-top:-180px;
-  margin-left:140px;
+position:absolute;
+  
 }
 
 
