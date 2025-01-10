@@ -1,7 +1,7 @@
 /*------------------Background------------------*/
 body {
   
-  background-image: url("https://i.ibb.co/xh1Y1tp/Bild-2024-12-22-143053285.png");
+  background-image: url("https://wallpapercave.com/wp/wp13312561.png");
   background-repeat: no-repeat;
    background-size: cover;
   align-items: center;  
@@ -44,7 +44,7 @@ body {
 }
 
 .NavBar a.OCS{
-   font-family:"Jacquard 12";
+   font-family:"Iceland";
    background-color:#19191c;
    color: #b3bfd2;
    padding:19px;
@@ -57,7 +57,7 @@ body {
 }
 
 .NavBar a.Art{
-   font-family:"Jacquard 12";
+   font-family:"Iceland";
    background-color:#19191c;
    color: #b3bfd2;
    padding:19px;
@@ -69,7 +69,7 @@ body {
 }
 
 .NavBar a.TOS{
-   font-family:"Jacquard 12";
+   font-family:"Iceland";
    background-color:#19191c;
    color: #b3bfd2;
    padding:19px;
@@ -80,7 +80,7 @@ body {
 }
  /*------------------Title----------------*/
 .outer-Title{
-   background-color:#b3bfd2;
+   background-color:#db7756;
   width:650px;
   border: 10px double #1f1f1f;
   padding: 10px;
@@ -109,7 +109,7 @@ h1{
   color:#19191c;
   text-align:center;
   font-size:70px;
-  font-family:'Jacquard 12';
+  font-family:'Iceland';
   padding-top: 10px;
   position:absolute;
   top:-45px;
@@ -133,7 +133,7 @@ h1{
   font-size:38px;
   padding-top: px;
   margin:0px;
-  font-family:'Jacquard 12';
+  font-family:'Iceland';
 
  }
 /*Artist container*/
@@ -143,7 +143,7 @@ h1{
    height: 60px;
     display: flex;
     justify-content: flex-end;
-    background-color:#adb9cc ;
+    background-color:#db9b56;
     align-items:center;
    border-radius: 20px;
   border:9px double #1f1f1f;
@@ -158,7 +158,7 @@ h1{
    height: 60px;
     display: flex;
     justify-content: flex-end;
-    background-color: #adb9cc ;
+    background-color:#db9b56 ;
     align-items:center;
    border-radius: 20px;
    border:9px double #1f1f1f;
@@ -173,7 +173,7 @@ h1{
    height: 60px;
     display: flex;
     justify-content: center;
-    background-color: #adb9cc;
+    background-color: #db9b56;
     align-items:center;
    border-radius: 20px;
    border:9px double #1f1f1f;
@@ -189,17 +189,17 @@ h1{
 .Intro-box {
   width:380px;
   height:140px;
-  background-color:#bfc4d7;
+  background-color:#dbaf56;
   justify-content:center;
   border-radius:20px;
   display:flex;
   border:#19191c double 10px;
   position:absolute;
   top:250px;
-  left:420px;
+  left:400px;
 }
 .Bio {
-  font-family:'Jacquard 12';
+  font-family:'Iceland';
   font-size:20px;
   color:#19191c;
   margin-top:-1px;
@@ -214,7 +214,7 @@ h1{
   width:395px;
 position:absolute;
   top:435px;
-  left:420px;
+  left:400px;
 }
 
 
@@ -299,14 +299,14 @@ position:absolute;
   position:absolute;
   top:665px;
   right:0px;
-   background-image:linear-gradient(transparent,#b4b8ca);
+   background-image:linear-gradient(transparent,#dba656);
   z-index:-1;
 }
 
 .BackBox{
   height:2000px;
   width:1920px;
-  background-color:#b4b8ca;
+  background-color:#dba656;
   position:absolute;
   top:774px;
   right:0px;
@@ -323,12 +323,12 @@ position:absolute;
   top:830px; 
   left:350px;
   margin: 0 auto; 
-  border:double #bec2cc 6px;
+  border:double #dba656 6px;
   border-radius:10px;
 }
 
 .FB-Word{
-  font-family:"Jacquard 12";
+  font-family:"Iceland";
   font-size:30px;
    position:absolute;
   top:800px;
@@ -370,20 +370,20 @@ transition:0.05s linear ;
 transition:0.25s linear;
   }
   
-/*Pokemon*/
+/*NineSols*/
 
-.Pokemon{
+.Ninesols{
   position:absolute;
-  top:822px;
+  top:830px;
   opacity:5;
 transition:0.05s linear ;
-  height:135px;
+  height:110px;
   width:auto;
   right:auto;
-  left:542px;
+  left:548px;
 }
 
-.Pokemon:hover{
+.Ninesols:hover{
   opacity:0.6;
 transition:0.25s linear;
 }
@@ -471,12 +471,12 @@ transition:0.25s linear;
   top:970px; 
   left:440px;
   margin: 0 auto; 
-  border:double #bec2cc 6px;
+  border:double #dba656 6px;
   border-radius:10px;
 }
 
 .MAB-Word{
-  font-family:"Jacquard 12";
+  font-family:"Iceland";
   font-size:30px;
    position:absolute;
   top:945px;
@@ -566,19 +566,176 @@ transition:0.25s linear;
 
 .SSBOX{
   width:300px;
-  height:350px;
+  height:470px;
   position:absolute;
   top:1200px;
   background-color:#1f1f2b;
   left:5%;
+  border-radius:20px 20px 0px 0px
 }
-
 
 .SSROHMBUS{
-  width:100px;
-  height:100px;
+  width:212px;
+  height:212px;
   transform:rotate(45deg);
-  background-color:white;
+  background-color:#ebebf7;
   position:absolute;
-  top:1300px;
+  top:1245px;
+  left:113px;
 }
+
+.ShadedPic{
+  width:200px;
+  height:200px;
+  position:absolute;
+  top:1250px;
+  left:120px;
+  border-radius:10px
+}
+
+.SSTitelBox{
+  width:330px;
+  height:100px;
+  background-color:#0d0d14;
+  position:absolute;
+  top:1572px;
+  left:53px;
+  border-radius:20px;
+}
+
+.SSTitelBoxInner{
+  width:300px;
+  height:80px;
+  background-color:#ebebf7;
+  position:absolute;
+  top:1580px;
+  left:68px;
+  border-radius:20px;
+}
+
+.SSTS{
+  font-size:30px;
+  position:absolute;
+  top:1460px;
+  left:206.7px;
+}
+
+.SSTRENNER{
+  position:absolute;
+  top:1553px;
+  left:150px;
+  width:130px;
+  height:0.1px;
+  background-color:#ebebf7;
+}
+
+.SST{
+  font-family:Estonia;
+  font-size:35px;
+  position:absolute;
+  top:1505px;
+  left:170px;
+  background-color:#ebebf7;
+  border-radius:20px;
+}
+
+.SSTitel{
+  font-family:Cinzel;
+  font-size:45px;
+  position:absolute;
+  top:1590px;
+  left:70px;
+}
+
+
+/*----Dragonfly----*/
+
+.DBOX{
+  width:300px;
+  height:470px;
+  position:absolute;
+  top:1200px;
+  background-color:#1f1f2b;
+  left:40%;
+  border-radius:20px 20px 0px 0px
+}
+
+.DROHMBUS{
+  width:212px;
+  height:212px;
+  transform:rotate(45deg);
+  background-color:#ebebf7;
+  position:absolute;
+  top:1245px;
+  left:594px;
+}
+
+.DragPic{
+  width:200px;
+  height:200px;
+  position:absolute;
+  top:1250px;
+  left:600px;
+  border-radius:10px
+}
+
+.DTitelBox{
+  width:330px;
+  height:100px;
+  background-color:#0d0d14;
+  position:absolute;
+  top:1572px;
+  left:530px;
+  border-radius:20px;
+}
+
+.DTitelBoxInner{
+  width:300px;
+  height:80px;
+  background-color:#ebebf7;
+  position:absolute;
+  top:1580px;
+  left:545px;
+  border-radius:20px;
+}
+
+.DTS{
+  font-size:30px;
+  position:absolute;
+  top:1460px;
+  left:688px;
+}
+
+.DTRENNER{
+  position:absolute;
+  top:1553px;
+  left:636px;
+  width:130px;
+  height:0.1px;
+  background-color:#ebebf7;
+}
+
+.DT{
+  font-family:Estonia;
+  font-size:35px;
+  position:absolute;
+  top:1505px;
+  left:665px;
+  background-color:#ebebf7;
+  border-radius:20px;
+}
+
+.DTitel{
+  font-family:Cinzel;
+  font-size:45px;
+  position:absolute;
+  top:1590px;
+  left:560px;
+}
+  
+  
+  .Very{
+    position:absolute;
+    top:350%;
+    left:36%;
+  }
